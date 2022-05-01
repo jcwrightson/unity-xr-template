@@ -14,6 +14,6 @@ Starter template making use of Unity's XR Interaction Toolkit and XR Plugin
 
 # Get Started
 
-- Clone repo
+- Create a repo from this template
 - Open project in Unity
 - Follow prompts to install packages
