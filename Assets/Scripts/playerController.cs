@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof (Rigidbody))]
-public class playerController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     private InputActionReference jumpActionRef;
@@ -17,10 +17,6 @@ public class playerController : MonoBehaviour
     {
         body = GetComponent<Rigidbody>();
         jumpActionRef.action.performed += OnJump;
-    }
-
-    void Update()
-    {
     }
 
     private void OnJump(InputAction.CallbackContext obj)

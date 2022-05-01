@@ -14,6 +14,7 @@ Starter template making use of Unity's XR Interaction Toolkit and XR Plugin. Con
 
 # Get Started
 
-- Create a repo from this template
-- Open project in Unity
-- Follow prompts to install packages
+- Create a repo from this template and clone
+- Open project in unity
+- Packages will be auto-installed
+- Choose 'SampleScene' from Assets -> Scenes
