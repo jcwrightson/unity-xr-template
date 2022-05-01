@@ -1,6 +1,6 @@
 # Unity XR Template
 
-Starter template making use of Unity's XR Interaction Toolkit and XR Plugin
+Starter template making use of Unity's XR Interaction Toolkit and XR Plugin. Contains a basic scene with the ability to continuously move, snap turn, jump, and grab objects.
 
 ## Prerequisites
 
