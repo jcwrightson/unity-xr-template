@@ -13,14 +13,12 @@ public class playerController : MonoBehaviour
 
     private Rigidbody body;
 
-
     void Start()
     {
         body = GetComponent<Rigidbody>();
         jumpActionRef.action.performed += OnJump;
     }
 
-    // Update is called once per frame
     void Update()
     {
     }
@@ -33,10 +31,8 @@ public class playerController : MonoBehaviour
 
     private bool IsGrounded()
     {
-        // layerMask = ~layerMask;
         RaycastHit hit;
 
-        // Does the ray intersect any objects excluding the player layer
         if (
             Physics
                 .Raycast(new Vector3(transform.position.x,
